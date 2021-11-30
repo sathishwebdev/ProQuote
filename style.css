@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "hussor-bold";
+    src: url(./fonts/HussarBold.ttf);
+  }
+  .container{
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    font-family:"hussor-bold" ;
+    color: rgb(0, 0, 0);
+    border:rgb(0, 0, 0) 1px solid;
+    max-width: 40vh;
+    margin: 3%;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body{
+    font-family:"hussor-bold"
+  }
