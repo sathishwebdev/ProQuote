@@ -15,8 +15,8 @@
     max-width: 40vh;
     margin: 3%;
     padding: 2%;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
   }
   body{
     font-family:"hussor-bold"
@@ -27,4 +27,15 @@
     color:white;
     padding: 2%;
     margin: 2%;
+    cursor:pointer;
+  }
+
+  #root{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .container:hover{
+    background-color: black;
+    color: white;
   }
