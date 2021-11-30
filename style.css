@@ -21,3 +21,10 @@
   body{
     font-family:"hussor-bold"
   }
+  .btn{
+    border: none;
+    background-color:rgb(0, 0, 0);
+    color:white;
+    padding: 2%;
+    margin: 2%;
+  }

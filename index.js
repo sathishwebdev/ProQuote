@@ -30,7 +30,7 @@ function share(en, author) {
       if (navigator.canShare) {
         navigator
           .share({
-            text: `${en} \n \n For more Interesting quote visit `,
+            text: `${en} \n \n\n ~${author} \n `,
             url: "",
             title: `Pro Quote | ${author}`,
           })
