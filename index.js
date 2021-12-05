@@ -8,7 +8,7 @@ fetch("https://programming-quotes-api.herokuapp.com/quotes")
 
 const display = (data) =>{
     let root = document.getElementById("root")
-    
+    root.innerHTML = ''
     data.map(({en, author, id })=>{
         let div = document.createElement("div")
         div.setAttribute("class", "container")
